@@ -1,0 +1,29 @@
+textarea{
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  max-width: 240px;
+  font-size: 14px;
+  font-family: "Inter";
+  line-height: 22px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  color: #000000;
+  border: none;
+  background: #ffffff;
+  transition: box-shadow 0.25s;
+  box-shadow: inset 0 0 0 1px var(--border-color, #E1E6F9), 0 0 0 3px var(--focus-color, transparent);
+}
+textarea {
+  resize: none;
+}
+textarea.auto {
+  overflow-y: hidden;
+}
+body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #000000;
+}
